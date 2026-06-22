@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialmod",
+  "version": "${version}",
+  "name": "Tutorial Mod",
+  "description": "A starter Fabric mod to learn Minecraft modding.",
+  "authors": [],
+  "contact": {
+    "sources": "https://github.com/ashleyscottgoad/Minecraft-mods-fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/tutorialmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ashleyscottgoad.tutorialmod.TutorialMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
